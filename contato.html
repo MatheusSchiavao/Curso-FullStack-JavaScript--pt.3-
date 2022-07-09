@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,43 @@
   <title>Currículo Matheus</title>
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Manrope:wght@300&family=Overlock+SC&display=swap" rel="stylesheet">
 </head>
 
 <style>
-  ::-webkit-scrollbar{
-  width: 13px;
+  ::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #ff0044;
+    border-radius: 25px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(171, 100%, 41%);
+    border-radius: 25px;
+  }
+
+  .card-content {
+    background-color: transparent;
+    padding: 0.05rem;
 }
 
-::-webkit-scrollbar-track{
-  background:#ff0044;
-  border-radius: 25px;
+.card-header-title {
+    align-items: center;
+    color: #363636;
+    display: flex;
+    flex-grow: 1;
+    font-weight: 700;
+    padding: 0.75rem 1.3rem;
 }
 
-::-webkit-scrollbar-thumb{
-  background:hsl(171, 100%, 41%);
-  border-radius: 25px;
+.m-auto {
+    margin: 1rem!important;
 }
 </style>
 
@@ -32,25 +55,25 @@
         <a class="navbar-item" href="portifólio_Matheus.html">
           <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
         </a>
-    
+
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
-    
+
       <div id="navbarBasicExample" class="navbar-menu is-active">
-        <div class="navbar-start">
+        <div class="navbar-start" style="font-family: 'Overlock SC', cursive;">
           <a href="portifólio_Matheus.html" class="navbar-item">
             Início
           </a>
-    
+
           <a href="contato.html" class="navbar-item">
             Contato
           </a>
-          </div>
         </div>
+      </div>
       </div>
     </nav>
   </header>
@@ -66,64 +89,67 @@
           <div class="card-content m-auto">
             <div class="media pb-4 m-auto">
               <div class="media-content">
-                <p class="title is-1 has-text-grey mb-0">Matheus Schiavão</p>
+                <p class="title is-1 has-text-grey mb-0" style="font-family: 'Overlock SC', cursive;">Matheus Schiavão</p>
                 <p>
-                  <span class="tag is-danger has-text-black">
-                  JavaScript FullStack Developer
+                  <span class="tag is-danger has-text-black" style="font-family: 'Manrope', sans-serif">
+                    JavaScript FullStack Developer
                   </span>
                 </p>
-                <br/>
+                <br />
                 <p class="subtitle is-6 has-text-grey mb-0">
-                  <span class="has-text-primary">(</span>12<span class="has-text-primary">)</span>98859-9519
+                  <span class="has-text-primary" style="font-family: 'Overlock SC', cursive;">(</span>12<span class="has-text-primary">)</span>98859-9519
                 </p>
                 <p class="subtitle is-6 has-text-grey">
-                  <span class="has-text-primary">@</span>m.schiavao
+                  <span class="has-text-primary" style="font-family: 'Overlock SC', cursive;">@</span>m.schiavao
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section column is-8">
-      <div class="column is-8">
+      <section class="section column is-8 has-background-black" style="margin: center;">
+        <div class="column is-12" style="padding-left:0; padding-right: 0px;">
           <div class="card is-danger">
-            <div class="card-header-title has-text-primary"><h1>Contato</h1></div>
-            <hr class="mt-0 has-background-danger">
-          </div>
-          </div>
-          <div class="card-content has-background-black">
-            <div class="content">
-              <form action="">
-                    <div class="field">
-                      <p class="control has-icons-left is-danger">
-                          <label class="label has-text-primary">Email</label>
-                          <div class="control has-icons-left">
-                              <input class="input is-danger" type="email" placeholder="Digite seu email">
-                              <span class="icon is-small is-left">
-                                <i class="fas fa-envelope"></i>
-                              </span>
-                          </div>
-                      </p>
-                    </div>
-                    <div class="field">
-                      <label class="label has-text-primary">Mensagem</label>
-                      <div class="control">
-                        <textarea class="textarea is-danger" placeholder="Digite a mensagem"></textarea>
-                      </div>
-                    </div>
-                    <div class="field is-grouped">
-                      <div class="control">
-                        <button class="button is-danger">Enviar</button>
-                      </div>
-                    </div>
-              </form>
+            <div class="card-header-title has-text-primary" style="font-family: 'Manrope', sans-serif">
+              <h1>Contacte-me</h1>
             </div>
+            <hr class="mt-0 has-background-danger is-1">
           </div>
         </div>
-        <br>  
+        <div class="card-content">
+          <div class="content">
+            <form action="contato.html">
+              <div class="field">
+                <p class="control has-icons-left is-danger">
+                  <label class="label has-text-primary" style="font-family: 'Manrope', sans-serif">Email</label>
+                <div class="control has-icons-left">
+                  <input class="input is-danger" type="email" placeholder="Digite seu email">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope" style="transition-delay: 0.09s;"></i>
+                  </span>
+                </div>
+                </p>
+              </div>
+              <div class="field">
+                <label class="label has-text-primary" style="font-family: 'Manrope', sans-serif">Mensagem</label>
+                <div class="control">
+                  <textarea class="textarea is-danger" placeholder="Digite a mensagem" style="height: 521px"></textarea>
+                </div>
+              </div>
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-danger">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
     </div>
+    <br>
   </div>
-</div>
-</section>
+  </div>
+  </div>
+  </section>
 </body>
+
 </html>
